@@ -91,7 +91,7 @@ class homestate extends State<content> {
                   context,
                   new MaterialPageRoute(builder: (context) => new MyApp2()),
                 );
-                Fluttertoast.showToast(msg: "This is Center Short Toast");
+                // Fluttertoast.showToast(msg: "This is Center Short Toast");
               },
               onDoubleTap: () {
                 _getBatteryLevel();
